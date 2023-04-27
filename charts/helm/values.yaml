@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: Always
   repository: batimeunnescafe/infra-lab-3
-  version: main-dea8618
+  version: main-8cdd9dd
 
 imagePullSecrets: []
 nameOverride: ""
