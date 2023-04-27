@@ -56,5 +56,5 @@ jobs:
     - name: Pushear cambios
       uses: devops-infra/action-commit-push@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.TOKEN_GITHUB }}
         commit_message: Versión actualizada
